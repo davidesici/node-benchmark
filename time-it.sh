@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/bin/time -f 'cpuuser %U\ncpusys %S\ncpuavg %P\nictx %c\nvctx %w\nfsin %I\nfsout %O\nrssavg %t\nrssmax %M\nmajflt %F\nswaps %W\nnetin %r\nnetout %s\nelapsed %E\nexit %x' -o /home/ubuntu/sogei/akamas/web-tooling-benchmark/script/time.out $* 2>&1
